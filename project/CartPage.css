@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#cart-container table {
+    border-collapse:collapse ;
+    width: 100%;
+}
+
+#cart-container table thead {
+    font-weight: 700;
+}
+
+#cart-container table thead td {
+    background: lightskyblue;
+    color: #fff;
+    border: none;
+    padding: 6px 0;
+}
+
+#cart-container table td {
+    border: 1px solid #b6b3b3;
+    text-align: center;
+}
+#cart-container table td:nth-child(1) {
+    width: 75px;
+}
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+    width: 200px;
+}
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6) {
+    width: auto;
+}
+
+#cart-container table tbody img {
+    object-fit: cover;
+}
+
+#two-btn {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.containerform .submit-btn,
+.containerforms .submit-btn{
+    width: 200px;
+    padding: 20px;
+    margin: auto 200px 50px;
+    font-size: 17px;
+    background: lightblue;
+    color:black;
+    margin-top: 50px;
+    cursor: pointer;
+    text-align: center;
+  }
+.containerform {
+    text-align: center;
+}
+.containerforms {
+    text-align: center;
+}
+ 
+.container form .submit-btn:hover{
+    background: lightskyblue;
+  }
+  
+
+  #my-map3 {
+    display: block;
+}
+
+.show-gg-map3 {
+    position: absolute;  
+    left: 70%;
+    bottom: 10%;
+    transform: scale(1.5);
+}
+.show-gg-map3:hover{
+    box-shadow:  0 0 10px #ffffff;
+    transform: scale(1.8) rotate(0deg);
+    transition: all 0.6s ;
+}

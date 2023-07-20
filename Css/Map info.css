@@ -1,0 +1,54 @@
+#my-map {
+    display: block;
+}
+
+.show-gg-map {
+    position: absolute;  
+    left: 70%;
+    bottom: 5%;
+    transform: scale(1.5);
+}
+.show-gg-map:hover{
+    box-shadow:  0 0 10px #ffffff;
+    transform: scale(1.8) rotate(0deg);
+    transition: all 0.6s ;
+}
+
+
+
+
+#my-map1 {
+    display: block;
+}
+
+.show-gg-map1 {
+    position: absolute;  
+    left: 70%;
+    bottom:101px;
+    transform: scale(1.5);
+}
+
+.show-gg-map1:hover{
+    box-shadow:  0 0 10px #ffffff;
+    transform: scale(1.8) rotate(0deg);
+    transition: all 0.6s ;
+}
+
+
+
+
+#my-map2 {
+    display: block;
+}
+
+.show-gg-map2 {
+    position: absolute;  
+    left: 70%;
+    bottom: 3%;
+    transform: scale(1.5);
+}
+.show-gg-map2:hover{
+    box-shadow:  0 0 10px #ffffff;
+    transform: scale(1.8) rotate(0deg);
+    transition: all 0.6s ;
+}

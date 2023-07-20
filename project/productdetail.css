@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.flex-box {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.left {
+    width: 50%;
+}
+
+.big-img {
+    width: 250px;
+    position: relative;
+    top: 5%;
+    left: -16%;
+    
+}
+
+.big-img img {
+    width: inherit;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.small-img {
+    width: 50px;
+    overflow: hidden;
+    left: 50%;
+}
+
+.small-img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   position: relative;
+   top: 67%;
+}
+
+.small-img:hover img {
+    transform: scale(1.2);
+}
+
+.right {
+    margin: 50px auto 20px 200px;
+}
+
+.url {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 102, 0);
+    margin-bottom: 25px;
+}
+
+.pName {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.revbuy {
+    font-weight: 500;
+    margin: 15px auto 15px 10px;
+}
+
+.revbuy span {
+    text-decoration: underline;
+    margin-right: 12px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 10px 15px 12px;
+    text-decoration: underline;
+}
+
+.About {
+    margin: 15px 10px 15px 12px;
+    font-size: 20px;
+}
+.btn-box {
+    display: flex;
+    margin: 20px 0 20px 12px;
+
+}
+
+.btn-box button {
+    font-size: 20px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cart-btn {
+    background-color: white;
+    color: black; 
+    margin-right: 20px;
+}
+
+.buy-btn {
+    background-color: black;
+    color: white;
+}
+.cart-btn:hover {
+    background-color: rgb(173, 168, 168);
+}
+
+.buy-btn:hover {
+    background-color: rgb(85, 82, 82);
+}
+
+.videosize {
+    position: relative;
+    left: 50%;
+}
+
+.howTo {
+display: flex;
+width: 100%;
+}
+.howTo video {
+width: 45%;
+margin-bottom: 100px;
+}
+.howTo h3 {
+    width: 0%;
+}
+
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+  }
+
+
+
+/*Menu*/
+
+

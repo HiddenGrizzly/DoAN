@@ -1,0 +1,15 @@
+#my-map {
+    display: flex;
+}
+
+.show-gg-map {
+    position: absolute;  
+    left: 70%;
+    bottom: 5%;
+    transform: scale(1.5);
+}
+.show-gg-map:hover{
+    box-shadow:  0 0 10px #ffffff;
+    transform: scale(1.8) rotate(0deg);
+    transition: all 0.6s ;
+}
