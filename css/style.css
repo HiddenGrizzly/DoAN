@@ -111,179 +111,46 @@ body {
     margin: auto;
 }
 
-.icon {
-    padding: 10px;
-    margin: 0;
-    color: #fff;
+#user-btn {
+    left: 90%;
+}
+
+#user {
+    border: none;
     background-color: #333;
-    border: 1px solid #333;
 }
 
-.info {
-    text-align: center;
-    background-color: whitesmoke ;
-}
-
-.slide-img {
-    width: 80%;
-    border-radius: 30px;
-}
-
-/* Slideshow container */
-.slideshow-container {
-width: 75%;
-position: relative;
-margin: auto;
-text-align: center;
-font-size: 30px;
-}
-
-/* Hide the images by default */
-.mySlides{
-display: none;
-text-align: center;
-width: 100%;
-}
-
-/* Next & previous buttons */
-.prev,.next{
-cursor: pointer;
-position: absolute; 
-top: 60%;
-width: auto;
-margin-top: -22px;
-padding: 16px;
-color: rgb(0, 0, 0);
-font-weight: bold;
-font-size: 18px;
-transition:.6sease;
-}
-
-/* Position the "next button" to the right */
-.next{
-right: 0;
-border-radius:0 6px 6px 0;
-}
-
-/* Position the "previous button" to the left */
-.prev{
-left: 0;
-border-radius:6px 0 0 6px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,.next:hover{
-background-color:rgba(63, 55, 55, 0.3);
-}
-
-/* Caption text */
-.caption{
-color:#fc0000;
-font-size:20px;
-padding:8px 12px;
-position:absolute;
-bottom:8px;
-width:100%;
-text-align:center;
-}
-
-/* The dots/bullets/indicators */
-.dot{
-cursor:pointer;
-height:15px;
-width:15px;
-margin:0 2px;
-background-color:#bbb;border-radius:50%;display:inline-block;transition: background-color 0.6s ease;
-}
-
-.active,.dothover{background-color:#717171;}
-
-/* Fading animation */
-.fade{
--webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s;}
-
-@-webkit-keyframesfade{from{opacity.4}to{opacity1}}
-
-@keyframesfade{from{opacity.4}to{opacity1}}
-
-.more {
-    padding: 15px 0;
-}
-
-.more a {
-    text-decoration: none;
-    color: black;
-}
-
-#info-head {
-    padding: 30px 0;
-}
-
-.products {
-    width: 100%;
-    text-align: center;
-    background-color: whitesmoke;
-}
-
-.products-img {
-    width: 90%;
-    border-radius: 10%;
-}
-
-#products-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-    background-color: whitesmoke;
+.icon {
+    background-color: #333;
+    color: #fff;
+    transform: scale(3);
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
 }
 
-#about-map {
-    display: grid;
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .footer-content {
-    display: flex;
-}
-  
-.about-us {
-    margin: 5px;
-}
-  
-.social-media {
-    text-align: center;
-}
-  
-.social-media a {
-    color: #fff;
-    margin: 0 5px;
-}
-
-.social-media a:hover {
-    color: #fc0000;
-}
-  
-.copy-right {
-    text-align: center;
-}
-  
-#about-map {
-    display: flex;
-    justify-content: space-between;
+    width: 50%;
+    height: 300px;
 }
 
 .show-gg-map {
-    text-align: center;
-    width: 40%;
+    width: 50%;
+    height: 300px;
 }
 
-.show-gg-map {
+.footer-bottom {
+    width: 100%;
     text-align: center;
 }
 
